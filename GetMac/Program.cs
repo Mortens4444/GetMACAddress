@@ -7,14 +7,13 @@ namespace GetMac
     {
         public static void Main(string[] args)
         {
-            /*if (args.Length != 1)
+            if (args.Length != 1)
             {
                 Console.WriteLine("Usage: {0} ipAddress", Application.ProductName);
                 return;
             }
 
-            var ipAddress = args[0];*/
-            var ipAddress = "192.168.0.100";
+            var ipAddress = args[0];
             Console.WriteLine("IP address: {0}", ipAddress);
 
             try
